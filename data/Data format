@@ -1,6 +1,12 @@
-First column: Starting point -> The first column indicates the time at which the song starts in seconds.
-If the number is negative it means that the beginning of the song is not available and started that many 
-seconds before the audio file. For example, -25 would mean that the song started 25 seconds before the 
-start of the recording
+First column: Starting point -> The first column indicates the time at which the song starts in the audio file in seconds.
 
-Second column: Ending point ->
+Second column: Ending point -> The second column indicates the time at which the song ends in the audio file in seconds.
+
+In some cases the beginning or ending or both could be missing from the audio file so the next two columns indicate how
+much of the audio file is missing from the beginning and the end.
+
+Third column: Starting offset -> If the starting offset is 0 that means the beginning is not cut off. If the starting 
+offset is negative that indicates how many seconds before the audio file the song started.
+
+Fourth column: Ending offset -> If the ending offset is 0 that means the end of the song is not cut off. If the ending
+offset is positive that indicates how many seconds after the end of the audio file the song ends.
