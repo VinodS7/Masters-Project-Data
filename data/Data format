@@ -1,0 +1,6 @@
+First column: Starting point -> The first column indicates the time at which the song starts in seconds.
+If the number is negative it means that the beginning of the song is not available and started that many 
+seconds before the audio file. For example, -25 would mean that the song started 25 seconds before the 
+start of the recording
+
+Second column: Ending point ->
